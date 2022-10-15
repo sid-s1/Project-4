@@ -1,16 +1,14 @@
 {
   "name": "project-4",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "repository": "git@github.com:sid-s1/Project-4.git",
+  "author": "Siddharth Singh <siddharth.s1@outlook.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "heroku-postbuild": "cd client && yarn && yarn build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   }
